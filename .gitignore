@@ -1,1 +1,20 @@
-.DS_STORE
+
+# Mac specific files
+.DS_Store
+
+# VSCode
+.vscode
+.idea
+
+# Cached Python Compiled FIles
+__pycache__
+
+# Dependencies
+venv
+
+# Full model weights and info for things like Flan - too large to commit
+model_cache
+
+# Downloaded RouterBench data
+routerbench_data/*.csv
+routerbench_data/*.pkl
